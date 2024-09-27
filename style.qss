@@ -1,0 +1,43 @@
+QLabel {
+    font-size: 12px;
+}
+
+QLabel#Title {
+    font-size: 24px;
+}
+
+QLabel#SubTitle {
+    font-size: 16px;
+}
+
+QLabel#3rdTitle {
+    font-size: 14px;
+}
+
+QDateEdit {
+    width: 120px
+}
+
+QTimeEdit {
+    width: 110px
+}
+
+QMainWindow {
+    padding: 0px
+}
+
+QTabBar::tab {
+    background: #414141;
+    border: 0;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    min-width: 8ex;
+    padding: 6px;
+}
+QTabBar::tab:selected, QTabBar::tab:hover {
+    background: #191919;
+}
+
+QTabWidget {
+    
+}
